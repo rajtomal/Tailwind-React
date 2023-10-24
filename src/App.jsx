@@ -8,8 +8,10 @@ function App() {
 
   return (
     <>
-      <NavBar></NavBar>
-      <BannerHeader></BannerHeader>
+      <div className='dark:bg-gray-800'>
+        <NavBar></NavBar>
+        <BannerHeader></BannerHeader>
+      </div>
     </>
   )
 }
