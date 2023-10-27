@@ -1,5 +1,6 @@
 import React from 'react'
 import {Button } from 'flowbite-react';
+import BannerImg from '../assets/slider-img.svg'
 
 
 const BannerHeader = () => {
@@ -16,7 +17,9 @@ const BannerHeader = () => {
               <button>Download CV</button>
               <Button>Download CV</Button>
           </div>
-          <div className=''>09</div>
+          <div className=''>
+            <img className='m-auto' src={BannerImg} alt="" />
+          </div>
         </div>
         {/* <img src="https://codesphere.com/img/llama2.webp" alt="" /> */}
       </div >
