@@ -1,15 +1,15 @@
 import React from 'react'
 import { Button } from 'flowbite-react';
-import BannerImg from '../../assets/slider-img.svg'
-import BannerBG from '../../assets/banner-bg.svg'
+// import BannerImg from '../../assets/slider-img.svg'
+// import BannerBG from '../../assets/banner-bg.svg'
 import BannerBGLight from '../../assets/slider-light.svg'
 
 
 const BannerHeader = () => {
   return (
     <>
-      <div className="dark:bg-[url('./assets/banner-bg-light.png')] bg-[url('./assets/banner-bg-light.png')]  bg-center bg-no-repeat bg-cover">
-        <div className="banner-part container mx-auto px-2 lg:py-[70px] py-3 ">
+      <div className=" banner-part dark:bg-[url('./assets/banner-bg-light.png')] bg-[url('./assets/banner-bg-light.png')]  bg-center bg-no-repeat bg-cover">
+        <div className=" lg:py-[70px] max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
           <div className='grid grid-cols-1 md:grid-cols-2'>
             <div className='flex items-center'>
               <div>
