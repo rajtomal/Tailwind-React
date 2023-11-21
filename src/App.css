@@ -3,3 +3,18 @@ body{
   margin: 0;
   padding: 0;
 }
+.custom-banner-name{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #222831;
+}
+.custom-banner-stroke{
+  -webkit-text-stroke-color: #ffffff;
+}
+.custom-banner-name span{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FF014F;
+}
+.custom-header-stroke{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FF014F;
+}
