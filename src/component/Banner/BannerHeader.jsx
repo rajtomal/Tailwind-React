@@ -9,7 +9,7 @@ const BannerHeader = () => {
   return (
     <>
       <div className=" banner-part dark:bg-[url('./assets/banner-bg-light.png')] bg-[url('./assets/banner-bg-light.png')]  bg-center bg-no-repeat bg-cover">
-        <div className=" lg:py-[70px] max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+        <div className=" lg:py-[70px] max-w-7xl mx-auto px-2">
           <div className='grid grid-cols-1 md:grid-cols-7 gap-6'>
             <div className=' md:col-span-4 flex items-center'>
               <div >

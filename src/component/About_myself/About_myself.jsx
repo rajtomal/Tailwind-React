@@ -4,13 +4,15 @@ const About_myself = () => {
     return (
         <>
             <section className="about-myself bg-[url('./assets/about-bg.png')] bg-center bg-no-repeat bg-cover">
-                <div className=" lg:py-[70px] max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+                <div className=" lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2">
                     <div className='grid grid-cols-1 md:grid-cols-12 gap-6'>
                         <div className="md:col-span-4">
                             <div className="experience-part  relative h-full">
                                 <div className='w-[80%] bg-white shadow-lg rounded-[10px]  bg-gradient-to-b from-[#46C5E8] h-full'>
-                                    <h1 className='text-[96px] font-black text-[#FF014F] text-center uppercase'>02+</h1>
-                                    <h4 className='text-[16px] font-semibold text-[#222831] text-center'>Years Of Experience</h4>
+                                    <div className='lg:py-[80px] pt-[50px] pb-[120px]'>
+                                        <h1 className='text-[96px] font-black text-[#FF014F] text-center uppercase'>02+</h1>
+                                        <h4 className='text-[16px] font-semibold text-[#222831] text-center'>Years Of Experience</h4>
+                                    </div>
                                     <div className="overlay-experience w-[50%] absolute bottom-[20px] right-[0]">
                                         <div className="flex items-center justify-between  rounded-[10px] py-[10px] px-[15px] bg-gradient-to-r from-[#46C5E8]/50 border border-[#46C5E8] ">
                                             <h3 className='text-[20px] font-semibold text-[#222831] mr-[15px]'>100%</h3>
