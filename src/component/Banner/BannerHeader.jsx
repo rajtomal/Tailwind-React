@@ -10,7 +10,7 @@ const BannerHeader = () => {
     <>
       <div className=" banner-part dark:bg-[url('./assets/banner-bg-light.png')] bg-[url('./assets/banner-bg-light.png')]  bg-center bg-no-repeat bg-cover">
         <div className=" lg:py-[70px] max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-          <div className='grid grid-cols-1 md:grid-cols-7'>
+          <div className='grid grid-cols-1 md:grid-cols-7 gap-6'>
             <div className=' md:col-span-4 flex items-center'>
               <div >
                 <h4 className='dark:text-white text-[#545454] font-semibold text-[24px]  uppercase py-[3px]'>Welcome to my world</h4>
