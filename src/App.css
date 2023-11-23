@@ -18,3 +18,31 @@ body{
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #FF014F;
 }
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+	position: initial;
+	height: 50px;
+	padding-top: 15px;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
+	content: '';
+	background: transparent;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	border: 1px solid red;
+	border-radius: 50%;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	position: relative;
+	width: 14px;
+	height: 14px;
+	background: red;
+}
+.swiper-pagination-bullet {
+	width: 14px !important;
+	height: 14px !important;
+	background: red !important;
+  opacity: 0.5;
+}
