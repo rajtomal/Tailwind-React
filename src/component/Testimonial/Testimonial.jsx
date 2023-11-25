@@ -36,7 +36,7 @@ const Testimonial = () => {
                     >
                         <div className='grid grid-cols-1 md:grid-cols-12 gap-3 '>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[250px] flex flex-col justify-between'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between'>
                                     <div className='px-2'>
                                         <h1 className='text-[18px] font-semibold text-[#222831] py-2'>UI/UX for your website by Figma adobe XD.</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080]'>“The seller went about and beyond and this is by FAR the best experience I’ve ever had on Fiverr. There team was nice, creative and helpful and did more than what was expected. Without a doubt will work in the future.”</p>
@@ -52,7 +52,7 @@ const Testimonial = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[250px] flex flex-col justify-between'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between'>
                                     <div className='px-2'>
                                         <h1 className='text-[18px] font-semibold text-[#222831] py-2'>figma to HTML, PSD to HTML responsive.</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080]'>Great communication, great skills, project finished way ahead of schedule. He is really experienced regarding his gig. I would be glad to work again with Raj soon.</p>
@@ -68,7 +68,7 @@ const Testimonial = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[250px] flex flex-col justify-between'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between'>
                                     <div className='px-2'>
                                         <h1 className='text-[18px] font-semibold text-[#222831] py-2'>HTML Project</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080]'>Professional job - delivered as expected! Highly recommended! Amazing communication and response with great skills as always. Love it.</p>
@@ -84,7 +84,7 @@ const Testimonial = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[250px] flex flex-col justify-between'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between'>
                                     <div className='px-2'>
                                         <h1 className='text-[18px] font-semibold text-[#222831] py-2'>Figma Design</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080]'>“Amazing to work with, great job on our website and coding, quick turnaround time. We are already working on a next project.”</p>
@@ -100,7 +100,7 @@ const Testimonial = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[250px] flex flex-col justify-between'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between'>
                                     <div className='px-2'>
                                         <h1 className='text-[18px] font-semibold text-[#222831] py-2'>UI/UX for your website by Figma.</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080]'>“Outstanding work once again , with every order the quality is high and communication is good.”</p>
