@@ -1,4 +1,5 @@
 import React from 'react'
+import CountUp from 'react-countup';
 
 const About_myself = () => {
     return (
@@ -15,7 +16,7 @@ const About_myself = () => {
                                     </div>
                                     <div className="overlay-experience w-[50%] absolute bottom-[20px] right-[0]">
                                         <div className="flex items-center justify-between  rounded-[10px] py-[10px] px-[15px] bg-gradient-to-r from-[#46C5E8]/50 border border-[#46C5E8] ">
-                                            <h3 className='text-[20px] font-semibold text-[#222831] mr-[15px]'>100%</h3>
+                                            <h3 className='text-[20px] font-semibold text-[#222831] mr-[15px]'><CountUp delay={2}  end={100} />%</h3>
                                             <p className='text-[16px] font-medium text-[#222831]'>Clients Satisfections</p>
                                         </div>
                                     </div>

@@ -9,6 +9,7 @@ import Recent_work from './component/Recent_work/Recent_work';
 import Biography_history from './component/Biography_history/Biography_history';
 import Testimonial from './component/Testimonial/Testimonial';
 import Footer from './component/Footer/Footer';
+import Portfolio from './component/Portfolio/Portfolio';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Biography_history></Biography_history>
         <Testimonial></Testimonial>
         <Footer></Footer>
+        <Portfolio></Portfolio>
       </div>
     </>
   )
