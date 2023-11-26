@@ -8,6 +8,7 @@ import Technology from './component/Technology/Technology';
 import Recent_work from './component/Recent_work/Recent_work';
 import Biography_history from './component/Biography_history/Biography_history';
 import Testimonial from './component/Testimonial/Testimonial';
+import Footer from './component/Footer/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Recent_work></Recent_work>
         <Biography_history></Biography_history>
         <Testimonial></Testimonial>
+        <Footer></Footer>
       </div>
     </>
   )

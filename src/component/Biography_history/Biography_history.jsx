@@ -20,7 +20,7 @@ const Biography_history = () => {
                                     <h2 className='text-[18px] font-semibold text-[#222831]'>Full Time (Official)</h2>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-5 bg-[#E2E2E2]/20'>
+                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20'>
                                 <div className='flex items-center justify-between gap-4'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
@@ -36,7 +36,7 @@ const Biography_history = () => {
                                     <h4 className=''>Apr 2022- Present</h4>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-5 bg-[#E2E2E2]/20'>
+                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20'>
                                 <div className='flex items-center justify-between gap-4'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
@@ -67,7 +67,7 @@ const Biography_history = () => {
                                     <h2 className='text-[18px] font-semibold text-[#222831]'>Education (History)</h2>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-5 bg-[#E2E2E2]/20'>
+                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20'>
                                 <div className='flex items-center justify-between gap-4'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
@@ -86,7 +86,7 @@ const Biography_history = () => {
                                     <h4 className=''>Jan 2023 - Present</h4>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-5 bg-[#E2E2E2]/20'>
+                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20'>
                                 <div className='flex items-center justify-between gap-4'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
@@ -105,7 +105,7 @@ const Biography_history = () => {
                                     <h4 className=''>Aug 2017 - Mar 2022</h4>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-5 bg-[#E2E2E2]/20'>
+                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 mb-2 bg-[#E2E2E2]/20'>
                                 <div className='flex items-center justify-between gap-4'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
