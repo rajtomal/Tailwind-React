@@ -7,11 +7,13 @@ import Technology from '../component/Technology/Technology'
 const About = () => {
   return (
     <>
+      <div className='dark:bg-gray-800 bg-[#F7F9FC]'>
         <MainLayout>
-            <About_myself></About_myself>
-            <Technology></Technology>
-            <Biography_history></Biography_history>
+          <About_myself></About_myself>
+          <Technology></Technology>
+          <Biography_history></Biography_history>
         </MainLayout>
+      </div>
     </>
   )
 }
