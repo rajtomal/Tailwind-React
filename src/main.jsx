@@ -7,7 +7,7 @@ import './index.css'
 import About from './Pages/About.jsx';
 import Services from './Pages/Services.jsx';
 import Portfolio from './Pages/PortfolioPage.jsx';
-import Contact from './Pages/Contact.jsx';
+import ContactPage from './Pages/Contact.jsx';
 
 
 
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   { path: "/About", element: <About /> },
   { path: "/Services", element: <Services /> },
   { path: "/Portfolio", element: <Portfolio/> },
-  { path: "/Contact", element: <Contact/> },
+  { path: "/Contact", element: <ContactPage /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
