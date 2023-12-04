@@ -13,10 +13,10 @@ import Contact from './Pages/Contact.jsx';
 
 const router = createBrowserRouter([
   { path: "/", element: <App/> },
-  { path: "/About", element: <About /> },
-  { path: "/Services", element: <Services /> },
-  { path: "/Portfolio", element: <Portfolio/> },
-  { path: "/Contact", element: <Contact /> },
+  { path: "/about", element: <About /> },
+  { path: "/services", element: <Services /> },
+  { path: "/portfolio", element: <Portfolio/> },
+  { path: "/contact", element: <Contact /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
