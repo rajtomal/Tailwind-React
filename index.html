@@ -1,13 +1,30 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/tab-logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tomal.M</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/src/assets/tab-logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tomal.M</title>
+</head>
+
+<body>
+  <div id="darkMode">
+    <button id="buttonToggle" class="text-[18px]" onClick="btnToggle()">Dark Mode</button>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    let Dark = false;
+    function btnToggle() {
+      const body = document.getElementById('darkMode');
+      const buttonToggle = document.getElementById('buttonToggle');
+      
+      Dark = !Dark;
+      body.classList.toggle('dark', Dark);
+      buttonToggle.innerHTML = Dark ? 'Light Mode' : 'Dark Mode';
+    }
+  </script>
+</body>
+
 </html>

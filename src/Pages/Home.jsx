@@ -10,6 +10,7 @@ import Testimonial from '../component/Testimonial/Testimonial'
 const Home = () => {
   return (
     <>
+    <div className='dark:bg-gray-800 bg-[#F7F9FC]'>
         <MainLayout>
             <BannerHeader></BannerHeader>
             <About_myself></About_myself>
@@ -18,6 +19,7 @@ const Home = () => {
             <Biography_history></Biography_history>
             <Testimonial></Testimonial>
         </MainLayout>
+    </div>
     </>
   )
 }
