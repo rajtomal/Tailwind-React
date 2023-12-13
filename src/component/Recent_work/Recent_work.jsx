@@ -32,7 +32,7 @@ const Recent_work = () => {
 
             <section className="bg-[url('./assets/recant_work_bg.png')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2'>
-                    <h2 className='text-[#222831] text-[18px] font-semibold'>Explore my work</h2>
+                    <h2 className='text-[#222831] text-[18px] font-semibold dark:text-white'>Explore my work</h2>
                     <h1 className='custom-header-stroke text-transparent text-[28px] font-bold uppercase tracking-wider'>Recent Work</h1>
                     <Swiper
                         spaceBetween={25}
@@ -58,12 +58,12 @@ const Recent_work = () => {
                     >
                         <div className='grid grid-cols-1 md:grid-cols-12 gap-3 '>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2]'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='rounded-[10px] overflow-hidden'>
                                         <img src={One} alt="" />
                                     </div>
                                     <div>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2'>SafeRide</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>SafeRide</h1>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#0ACF83]/20 text-[12px] text-[#3A7D68] border border-[#3A7D68] rounded-[5px]'>UI-UX</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#F1662A]/20 text-[12px] text-[#F1662A] border border-[#F1662A] rounded-[5px]'>HTML</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#4CB4E1]/20 text-[12px] text-[#1572B6] border border-[#1572B6] rounded-[5px]'>CSS</span>
@@ -72,12 +72,12 @@ const Recent_work = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2]'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='rounded-[10px] overflow-hidden'>
                                         <img src={Two} alt="" />
                                     </div>
                                     <div>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2'>SafeRide</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>SafeRide</h1>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#0ACF83]/20 text-[12px] text-[#3A7D68] border border-[#3A7D68] rounded-[5px]'>UI-UX</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#F1662A]/20 text-[12px] text-[#F1662A] border border-[#F1662A] rounded-[5px]'>HTML</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#4CB4E1]/20 text-[12px] text-[#1572B6] border border-[#1572B6] rounded-[5px]'>CSS</span>
@@ -86,12 +86,12 @@ const Recent_work = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2]'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='rounded-[10px] overflow-hidden'>
                                         <img src={Three} alt="" />
                                     </div>
                                     <div>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2'>SafeRide</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>SafeRide</h1>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#0ACF83]/20 text-[12px] text-[#3A7D68] border border-[#3A7D68] rounded-[5px]'>UI-UX</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#F1662A]/20 text-[12px] text-[#F1662A] border border-[#F1662A] rounded-[5px]'>HTML</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#4CB4E1]/20 text-[12px] text-[#1572B6] border border-[#1572B6] rounded-[5px]'>CSS</span>
@@ -100,12 +100,12 @@ const Recent_work = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2]'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='rounded-[10px] overflow-hidden'>
                                         <img src={Four} alt="" />
                                     </div>
                                     <div>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2'>SafeRide</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>SafeRide</h1>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#0ACF83]/20 text-[12px] text-[#3A7D68] border border-[#3A7D68] rounded-[5px]'>UI-UX</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#F1662A]/20 text-[12px] text-[#F1662A] border border-[#F1662A] rounded-[5px]'>HTML</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#4CB4E1]/20 text-[12px] text-[#1572B6] border border-[#1572B6] rounded-[5px]'>CSS</span>
@@ -114,12 +114,12 @@ const Recent_work = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2]'>
+                                <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='rounded-[10px] overflow-hidden'>
                                         <img src={Five} alt="" />
                                     </div>
                                     <div>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2'>SafeRide</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>SafeRide</h1>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#0ACF83]/20 text-[12px] text-[#3A7D68] border border-[#3A7D68] rounded-[5px]'>UI-UX</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#F1662A]/20 text-[12px] text-[#F1662A] border border-[#F1662A] rounded-[5px]'>HTML</span>
                                         <span className='mx-1 py-[1px] px-[10px] bg-[#4CB4E1]/20 text-[12px] text-[#1572B6] border border-[#1572B6] rounded-[5px]'>CSS</span>

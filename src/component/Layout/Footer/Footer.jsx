@@ -6,8 +6,8 @@ const Footer = () => {
             <section className="bg-[url('./assets/footer-bg.png')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:pt-[70px] pt-[50px] max-w-7xl mx-auto px-2'>
                     <div className='grid grid-cols-1 md:grid-cols-12 gap-6 pb-[30px]'>
-                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0  border border-[#E2E2E2]   rounded-[10px]'>
-                            <div className='bg-white rounded-[10px] p-[15px] text-center'>
+                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0  border border-[#E2E2E2] rounded-[10px] dark:bg-[#273346] dark:border-[#404E68]'>
+                            <div className=' rounded-[10px] p-[15px] text-center'>
                                 <div className='flex items-center gap-6 h-[100%]'>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 80 80" fill="none">
@@ -15,13 +15,13 @@ const Footer = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h2 className='text-[20px] font-semibold text-[#222831]'>Dribbble</h2>
+                                        <h2 className='text-[20px] font-semibold text-[#222831] dark:text-white'>Dribbble</h2>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0  border border-[#E2E2E2]   rounded-[10px]'>
-                            <div className='bg-white rounded-[10px] p-[15px] text-center'>
+                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0  border border-[#E2E2E2] rounded-[10px] dark:bg-[#273346] dark:border-[#404E68]'>
+                            <div className='rounded-[10px] p-[15px] text-center'>
                                 <div className='flex items-center gap-6 h-[100%]'>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 80 80" fill="none">
@@ -29,13 +29,13 @@ const Footer = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h2 className='text-[20px] font-semibold text-[#222831]'>Linkedin</h2>
+                                        <h2 className='text-[20px] font-semibold text-[#222831] dark:text-white'>Linkedin</h2>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 border border-[#E2E2E2]   rounded-[10px]'>
-                            <div className='bg-white rounded-[10px] p-[15px] text-center'>
+                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 border border-[#E2E2E2] rounded-[10px] dark:bg-[#273346] dark:border-[#404E68]'>
+                            <div className='rounded-[10px] p-[15px] text-center'>
                                 <div className='flex items-center gap-6 h-[100%]'>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 80 80" fill="none">
@@ -43,13 +43,13 @@ const Footer = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h2 className='text-[20px] font-semibold text-[#222831]'>Github</h2>
+                                        <h2 className='text-[20px] font-semibold text-[#222831] dark:text-white'>Github</h2>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0  border border-[#E2E2E2]   rounded-[10px]'>
-                            <div className='bg-white rounded-[10px] p-[15px] text-center'>
+                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0  border border-[#E2E2E2] rounded-[10px] dark:bg-[#273346] dark:border-[#404E68]'>
+                            <div className='rounded-[10px] p-[15px] text-center'>
                                 <div className='flex items-center gap-6 h-[100%]'>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 80 80" fill="none">
@@ -58,7 +58,7 @@ const Footer = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h2 className='text-[20px] font-semibold text-[#222831]'>Facebook</h2>
+                                        <h2 className='text-[20px] font-semibold text-[#222831] dark:text-white'>Facebook</h2>
                                     </div>
                                 </div>
                             </div>
@@ -72,19 +72,19 @@ const Footer = () => {
                     </div>
                     <div className='text-center my-5'>
                         <ul className='inline-block '>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase' href="#">Home</a></li>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase' href="#">About</a></li>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase' href="#">Service</a></li>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase' href="#">Portfolio</a></li>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase' href="#">Contact</a></li>
+                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Home</a></li>
+                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">About</a></li>
+                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Service</a></li>
+                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Portfolio</a></li>
+                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Contact</a></li>
                         </ul>
                     </div>
                     <div className='flex justify-between py-5  border-t-[1px]  border-[#E2E2E2]'>
                         <div>
-                            <p className='text-[14px] font-regular text-[#222831]'>© <span className='text-[#FF014F] font-semibold'>Tomal.M</span> 2023 - Present.</p>
+                            <p className='text-[14px] font-regular text-[#222831] dark:text-slate-400 '>© <span className='text-[#FF014F] font-semibold'>Tomal.M</span> 2023 - Present.</p>
                         </div>
                         <div>
-                            <p className='text-[14px] font-regular text-[#222831]'>All right reserved</p>
+                            <p className='text-[14px] font-regular text-[#222831] dark:text-slate-400 '>All right reserved</p>
                         </div>
                     </div>
                 </div>

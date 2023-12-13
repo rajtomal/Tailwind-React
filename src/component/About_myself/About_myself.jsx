@@ -25,9 +25,9 @@ const About_myself = () => {
                         </div>
                         <div className="md:col-span-8">
                             <div className="myself-text">
-                                <h4 className='text-[#222831] text-[18px] font-semibold'>About Myself</h4>
+                                <h4 className='text-[#222831] text-[18px] font-semibold dark:text-white'>About Myself</h4>
                                 <h2 className='custom-header-stroke text-transparent text-[28px] font-bold uppercase tracking-wider'>My Eyes to do</h2>
-                                <p className='text-[#808080] text-[16px] font-regular tracking-wide leading-6'>An Addicted, Specialized, and Qualified to build UI/UX design for website and mobile applications
+                                <p className='dark:text-slate-400 text-[#808080] text-[16px] font-regular tracking-wide leading-6'>An Addicted, Specialized, and Qualified to build UI/UX design for website and mobile applications
                                     (Dealing with the front end part). I always work with the need to understand the benefits of the users,
                                     give them something new to enjoy, and come close to new expectations in advance.</p>
                             </div>
@@ -40,8 +40,8 @@ const About_myself = () => {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h2 className='text-[#222831] text-[16px] font-semibold py-[8px]'>UI/UX Design</h2>
-                                            <p className='text-[#808080] text-[14px] font-regular tracking-wide leading-6'>UX Design refers to the term User Experience Design, while
+                                            <h2 className='dark:text-white text-[#222831] text-[16px] font-semibold py-[8px]'>UI/UX Design</h2>
+                                            <p className='dark:text-slate-400 text-[#808080] text-[14px] font-regular tracking-wide leading-6'>UX Design refers to the term User Experience Design, while
                                                 UI Design stands for User Interface Design. Both elements
                                                 are crucial to a product and work closely together.
                                             </p>
@@ -54,8 +54,8 @@ const About_myself = () => {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h2 className='text-[#222831] text-[16px] font-semibold py-[8px]'>Web Design</h2>
-                                            <p className='text-[#808080] text-[14px] font-regular tracking-wide leading-6'>Web design encompasses many different skills and disciplines
+                                            <h2 className='dark:text-white text-[#222831] text-[16px] font-semibold py-[8px]'>Web Design</h2>
+                                            <p className='dark:text-slate-400 text-[#808080] text-[14px] font-regular tracking-wide leading-6'>Web design encompasses many different skills and disciplines
                                                 in the production and maintenance of websites. The different
                                                 areas of web design include UI & UX design.
                                             </p>
@@ -70,8 +70,8 @@ const About_myself = () => {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h2 className='text-[#222831] text-[16px] font-semibold py-[8px]'>Mobile Screen Design</h2>
-                                            <p className='text-[#808080] text-[14px] font-regular tracking-wide leading-6'>A mobile user interface (mobile UI) is the graphical and usually
+                                            <h2 className='dark:text-white text-[#222831] text-[16px] font-semibold py-[8px]'>Mobile Screen Design</h2>
+                                            <p className='dark:text-slate-400 text-[#808080] text-[14px] font-regular tracking-wide leading-6'>A mobile user interface (mobile UI) is the graphical and usually
                                                 touch-sensitive display, such as a smartphone or tablet, that
                                                 allows the user features, content and functions.
                                             </p>
@@ -84,8 +84,8 @@ const About_myself = () => {
                                             </svg>
                                         </div>
                                         <div>
-                                            <h2 className='text-[#222831] text-[16px] font-semibold py-[8px]'>Front End Development</h2>
-                                            <p className='text-[#808080] text-[14px] font-regular tracking-wide leading-6'>Frontend web development is the producing HTML, CSS,
+                                            <h2 className='dark:text-white text-[#222831] text-[16px] font-semibold py-[8px]'>Front End Development</h2>
+                                            <p className='dark:text-slate-400 text-[#808080] text-[14px] font-regular tracking-wide leading-6'>Frontend web development is the producing HTML, CSS,
                                                 Tailwind Css, Bootstrap,JavaScript, React, Angular for a Web
                                                 Application so user can see and interact with them directly.
                                             </p>
