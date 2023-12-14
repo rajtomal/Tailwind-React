@@ -16,9 +16,9 @@ function App() {
 
   return (
     <>
-      {/*<div className='dark:bg-gray-800 bg-[#F7F9FC]'>
+      <div>
         <Home></Home>
-         <NavBar></NavBar>
+         {/*<NavBar></NavBar>
         <BannerHeader></BannerHeader>
         <About_myself></About_myself>
         <Technology></Technology>
@@ -26,8 +26,8 @@ function App() {
         <Biography_history></Biography_history>
         <Testimonial></Testimonial>
         <Footer></Footer>
-        <Portfolio></Portfolio> 
-      </div>*/}
+        <Portfolio></Portfolio> */}
+      </div>
     </>
   )
 }
