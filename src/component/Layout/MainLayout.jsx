@@ -7,10 +7,12 @@ const MainLayout = ({ children }) => {
     return (
         <>
             <div className="dark">
-            <NavBar></NavBar>
-            {children}
-            <Footer></Footer>
+                <div className='dark:bg-gray-800 bg-[#F7F9FC]'>
+                    <NavBar></NavBar>
+                        {children}
+                    <Footer></Footer>
                 </div>
+            </div>
         </>
     )
 }
