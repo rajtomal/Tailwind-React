@@ -6,7 +6,7 @@ const MainLayout = ({ children }) => {
     window.scrollTo(0, 0)
     return (
         <>
-            <div className="hi">
+            <div className="dark">
             <NavBar></NavBar>
             {children}
             <Footer></Footer>
