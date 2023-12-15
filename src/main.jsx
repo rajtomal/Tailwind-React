@@ -19,18 +19,18 @@ const router = createBrowserRouter([
 ]);
 
 const Root = () => {
-  const [darkMode, setDarkMode] = useState(false);
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
+  // const [darkMode, setDarkMode] = useState(false);
+  // const toggleDarkMode = () => {
+  //   setDarkMode(!darkMode);
+  // };
   return (
     <React.StrictMode>
-      <DarkModeToggle initialMode={darkMode} onToggleDarkMode={toggleDarkMode} />
-      <div className={darkMode && 'dark'}>
+      {/* <DarkModeToggle initialMode={darkMode} onToggleDarkMode={toggleDarkMode} /> */}
+      {/* <div className={darkMode && 'dark'}> */}
         <RouterProvider router={router}>
           <App />
         </RouterProvider>
-      </div>
+      {/* </div> */}
     </React.StrictMode>
   );
 };

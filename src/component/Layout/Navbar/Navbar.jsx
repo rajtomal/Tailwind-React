@@ -7,10 +7,12 @@ import { Icon } from '@iconify/react';
 import Logo from '../../../assets/logo.svg'
 import DarkModeToggle from '../DarkModeToggle';
 
-function NavBar() {
+function NavBar(props) {
     return (
         <>
             {/* <DarkModeToggle onToggleDarkMode={onToggleDarkMode} /> */}
+            <button onClick={props.onToggleDarkMode}>{props.initialMode ? 'Light Mode' : 'Dark Mode'}</button>
+
             <section className='border-b border-gray-600/20 sticky top-0 z-50'>
                 <Navbar className='max-w-7xl mx-auto bg-dark-bg/80 backdrop-blur  sticky w-full top-0 left-0 z-[999999999] dark:backdrop-blur dark:bg-transparent'>
                     <Navbar.Toggle />
