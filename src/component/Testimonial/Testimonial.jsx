@@ -8,7 +8,7 @@ import { Pagination } from 'swiper/modules';
 const Testimonial = () => {
     return (
         <>
-            <section className="bg-[url('./assets/Testimonial-bg.png')] bg-center bg-no-repeat bg-cover">
+            <section className="dark:bg-none bg-[url('./assets/Testimonial-bg.png')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2'>
                     <h2 className='text-[#222831] text-[18px] font-semibold dark:text-white'>Satisfaction Quotes</h2>
                     <h1 className='custom-header-stroke text-transparent text-[28px] font-bold uppercase tracking-wider'>Satisfaction Quotes</h1>
@@ -43,7 +43,7 @@ const Testimonial = () => {
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68]'>
                                         <div>
-                                            <h2 className='bg-clip-text text-transparent bg-gradient-to-r from-[#29B6DD] to-[#005269] dark:bg-gradient-to-r from-[#29B6DD] to-[#3C9EB9] text-[18px] font-semibold'>Realpartyhopper</h2>
+                                            <h2 className='text-[#222831] text-[18px] font-semibold'>Realpartyhopper</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />
@@ -59,7 +59,7 @@ const Testimonial = () => {
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68]'>
                                         <div>
-                                            <h2 className='bg-clip-text text-transparent bg-gradient-to-r from-[#29B6DD] to-[#005269] dark:bg-gradient-to-r from-[#29B6DD] to-[#3C9EB9]  text-[18px] font-semibold'>Jacksonlcox</h2>
+                                            <h2 className='text-[#222831]  text-[18px] font-semibold'>Jacksonlcox</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />
@@ -75,7 +75,7 @@ const Testimonial = () => {
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68] '>
                                         <div>
-                                            <h2 className='bg-clip-text text-transparent bg-gradient-to-r from-[#29B6DD] to-[#005269] dark:bg-gradient-to-r from-[#29B6DD] to-[#3C9EB9]  text-[18px] font-semibold'>Codighost</h2>
+                                            <h2 className='text-[#222831]  text-[18px] font-semibold'>Codighost</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />
@@ -91,7 +91,7 @@ const Testimonial = () => {
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68]'>
                                         <div>
-                                            <h2 className='bg-clip-text text-transparent bg-gradient-to-r from-[#29B6DD] to-[#005269] dark:bg-gradient-to-r from-[#29B6DD] to-[#3C9EB9]  text-[18px] font-semibold'>vispol</h2>
+                                            <h2 className='text-[#222831]  text-[18px] font-semibold'>vispol</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />
@@ -107,7 +107,7 @@ const Testimonial = () => {
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68]'>
                                         <div>
-                                            <h2 className='bg-clip-text text-transparent bg-gradient-to-r from-[#29B6DD] to-[#005269] dark:bg-gradient-to-r from-[#29B6DD] to-[#3C9EB9]  text-[18px] font-semibold'>debasischakrabo</h2>
+                                            <h2 className='text-[#222831]  text-[18px] font-semibold'>debasischakrabo</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />

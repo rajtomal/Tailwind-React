@@ -16,7 +16,7 @@ import Git from '../../assets/git.svg'
 const Technology = () => {
     return (
         <>
-            <section className="bg-[url('./assets/about-bg.png')] bg-center bg-no-repeat bg-cover">
+            <section className="dark:bg-none bg-[url('./assets/about-bg.png')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2'>
                     <div className='grid grid-cols-1 md:grid-cols-12 gap-6'>
                         <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#404E68]'>
@@ -64,7 +64,7 @@ const Technology = () => {
                                     <div className='bg-[#F7F9FC] rounded-[10px] p-3'>
                                         <img className='m-auto' src={TechnologyImg} alt="Technology" />
                                     </div>
-                                    <h2 className='bg-clip-text text-transparent dark:bg-gradient-to-r from-[#29B6DD] to-[#3C9EB9] bg-gradient-to-r from-[#29B6DD] to-[#005269] text-center text-[24px] uppercase tracking-wide font-bold pt-3'>Design & Development Technology</h2>
+                                    <h2 className=' text-[#222831] text-center text-[24px] uppercase tracking-wide font-bold pt-3'>Design & Development Technology</h2>
                                 
                             </div>
                         </div>

@@ -3,7 +3,7 @@ import Logo from '../../../assets/logo.svg'
 const Footer = () => {
     return (
         <>
-            <section className="bg-[url('./assets/footer-bg.png')] bg-center bg-no-repeat bg-cover">
+            <section className="dark:bg-none bg-[url('./assets/footer-bg.png')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:pt-[70px] pt-[50px] max-w-7xl mx-auto px-2'>
                     <div className='grid grid-cols-1 md:grid-cols-12 gap-6 pb-[30px]'>
                         <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0  border border-[#E2E2E2] rounded-[10px] dark:bg-[#273346] dark:border-[#404E68]'>
