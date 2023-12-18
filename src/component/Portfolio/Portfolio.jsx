@@ -1,23 +1,17 @@
 import React from 'react'
 import projectData from '../Services/PortfolioData'
 
-import One from '../../assets/UI-design/1.svg'
-import Two from '../../assets/UI-design/2.svg'
-import Three from '../../assets/UI-design/3.svg'
-import Four from '../../assets/UI-design/4.svg'
-import Five from '../../assets/UI-design/5.svg'
-
 const Portfolio = () => {
     return (
         <>
-            <section className="bg-[url('./assets/recant_work_bg.png')] bg-center bg-no-repeat bg-cover">
+            <section className="dark:bg-none bg-[url('./assets/recant_work_bg.png')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2'>
-                    <h2 className='text-[#222831] text-[18px] font-semibold text-center'>Explore my work</h2>
+                    <h2 className='text-[#222831] text-[18px] font-semibold text-center dark:text-white'>Explore my work</h2>
                     <h1 className='custom-header-stroke text-transparent text-[28px] font-bold uppercase tracking-wider text-center'>Best Projects</h1>
 
                     <div className='grid grid-cols-1 md:grid-cols-12 gap-3 mt-5'>
                         {projectData.map((item, index) => (
-                            <div key={index} className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2]  '>
+                            <div key={index} className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-slate-800 dark:border-[#404E68]'>
                                 <div className='rounded-[10px] overflow-hidden relative'>
                                     <img className='scale-100 hover:scale-125 transition-all duration-300' src={item.img} alt="" />
                                     <div className='absolute top-3 right-3 z-50'>
@@ -28,7 +22,7 @@ const Portfolio = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 className='text-[18px] font-semibold text-[#222831] py-2'>{item.title}</h1>
+                                    <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>{item.title}</h1>
 
                                     <div>
                                         {item.tags.includes('UI-UX') && <span className='mx-1 py-[1px] px-[10px] bg-[#155E75]/20 text-[12px] text-[#155E75] border border-[#155E75] rounded-[5px]'>UI-UX</span>}

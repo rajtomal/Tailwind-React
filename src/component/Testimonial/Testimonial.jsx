@@ -38,12 +38,12 @@ const Testimonial = () => {
                             <SwiperSlide>
                                 <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='px-2'>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>UI/UX for your website by Figma adobe XD.</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-slate-300'>UI/UX for your website by Figma adobe XD.</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080] dark:text-slate-400'>“The seller went about and beyond and this is by FAR the best experience I’ve ever had on Fiverr. There team was nice, creative and helpful and did more than what was expected. Without a doubt will work in the future.”</p>
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68]'>
                                         <div>
-                                            <h2 className='text-[#222831] text-[18px] font-semibold'>Realpartyhopper</h2>
+                                            <h2 className='text-[#222831] text-[18px] font-semibold dark:text-white'>Realpartyhopper</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />
@@ -54,12 +54,12 @@ const Testimonial = () => {
                             <SwiperSlide>
                                 <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='px-2'>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>figma to HTML, PSD to HTML responsive.</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-slate-300'>figma to HTML, PSD to HTML responsive.</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080] dark:text-slate-400'>Great communication, great skills, project finished way ahead of schedule. He is really experienced regarding his gig. I would be glad to work again with Raj soon.</p>
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68]'>
                                         <div>
-                                            <h2 className='text-[#222831]  text-[18px] font-semibold'>Jacksonlcox</h2>
+                                            <h2 className='text-[#222831]  text-[18px] font-semibold dark:text-white'>Jacksonlcox</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />
@@ -70,12 +70,12 @@ const Testimonial = () => {
                             <SwiperSlide>
                                 <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='px-2'>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>HTML Project</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-slate-300'>HTML Project</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080] dark:text-slate-400'>Professional job - delivered as expected! Highly recommended! Amazing communication and response with great skills as always. Love it.</p>
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68] '>
                                         <div>
-                                            <h2 className='text-[#222831]  text-[18px] font-semibold'>Codighost</h2>
+                                            <h2 className='text-[#222831]  text-[18px] font-semibold dark:text-white'>Codighost</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />
@@ -86,12 +86,12 @@ const Testimonial = () => {
                             <SwiperSlide>
                                 <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='px-2'>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>Figma Design</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-slate-300'>Figma Design</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080] dark:text-slate-400'>“Amazing to work with, great job on our website and coding, quick turnaround time. We are already working on a next project.”</p>
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68]'>
                                         <div>
-                                            <h2 className='text-[#222831]  text-[18px] font-semibold'>vispol</h2>
+                                            <h2 className='text-[#222831]  text-[18px] font-semibold dark:text-white'>vispol</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />
@@ -102,12 +102,12 @@ const Testimonial = () => {
                             <SwiperSlide>
                                 <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] h-[315px] md:h-[250px] flex flex-col justify-between dark:bg-[#273346] dark:border-[#404E68]'>
                                     <div className='px-2'>
-                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-white'>UI/UX for your website by Figma.</h1>
+                                        <h1 className='text-[18px] font-semibold text-[#222831] py-2 dark:text-slate-300'>UI/UX for your website by Figma.</h1>
                                         <p className='text-[14px] font-regular leading-6 text-[#808080] dark:text-slate-400'>“Outstanding work once again , with every order the quality is high and communication is good.”</p>
                                     </div>
                                     <div className='flex justify-between items-center pt-3 mt-4 px-2 border-t border-[#E2E2E2] dark:border-[#404E68]'>
                                         <div>
-                                            <h2 className='text-[#222831]  text-[18px] font-semibold'>debasischakrabo</h2>
+                                            <h2 className='text-[#222831]  text-[18px] font-semibold dark:text-white'>debasischakrabo</h2>
                                         </div>
                                         <div className='w-[50px] h-[50px] rounded-[50%] overflow-hedden'>
                                             <img src={Profilr1} alt="" />

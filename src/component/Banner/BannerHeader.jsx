@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'flowbite-react';
 // import BannerImg from '../../assets/slider-img.svg'
-// import BannerBG from '../../assets/banner-bg.svg'
+import BannerImg from '../../assets/banner-img.svg'
 import BannerBGLight from '../../assets/slider-light.svg'
 
 
@@ -13,7 +13,7 @@ const BannerHeader = () => {
           <div className='grid grid-cols-1 md:grid-cols-7 gap-6'>
             <div className=' md:col-span-4 flex items-center'>
               <div >
-                <h4 className='dark:text-white text-[#545454] font-semibold text-[24px]  uppercase py-[3px]'>Welcome to my world</h4>
+                <h4 className='dark:text-gray-300 text-[#545454] font-semibold text-[24px]  uppercase py-[3px]'>Welcome to my world</h4>
                 <h1 className='dark:text-white text-transparent text-[60px] font-black py-[3px] custom-banner-name'>Hi, I am <span className='text-transparent font-black'>Tomal.M </span></h1>
                 <div className="banner-right-text  lg:ml-[100px]">
                   <h2 className='dark:text-white text-[#222831] text-[32px] uppercase font-bold py-[3px]'>Creative <span className='text-[#46CC8F]'>UI/UX Designer</span></h2>
@@ -28,7 +28,7 @@ const BannerHeader = () => {
               </div>
             </div>
             <div className='md:col-span-3'>
-              <img className='m-auto rounded-2xl' src={BannerBGLight} alt="banner-bg" />
+              <img className='m-auto rounded-2xl dark:bg-[#2d3a4f] bg-white ' src={BannerImg} alt="banner-bg" />
             </div>
           </div>
         </div >

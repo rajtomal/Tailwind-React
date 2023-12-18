@@ -21,7 +21,7 @@ const MainLayout = ({ children }) => {
     return (
         <>
             <div className={` ${darkMode && 'dark'}`}>
-                <div className='dark:bg-gray-800 bg-[#F7F9FC] transition-colors duration-300'>
+                <div className='dark:bg-slate-800 bg-[#F7F9FC] transition-colors duration-300'>
                     <NavBar initialMode={darkMode} onToggleDarkMode={toggleDarkMode}></NavBar>
                     {children}
                     <Footer></Footer>

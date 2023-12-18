@@ -5,7 +5,7 @@ import Portfolio from '../component/Portfolio/Portfolio';
 const PortfolioPage = () => {
   return (
     <>
-    <div className='dark:bg-gray-800 bg-[#F7F9FC]'>
+    <div>
         <MainLayout>
             <Portfolio></Portfolio>
         </MainLayout>

@@ -6,7 +6,7 @@ import Services_All from '../component/Services_All/Services_All'
 const Services = () => {
   return (
     <>
-    <div className='dark:bg-gray-800 bg-[#F7F9FC]'>
+    <div>
         <MainLayout>
             {/* <About_myself></About_myself> */}
             <Services_All></Services_All>

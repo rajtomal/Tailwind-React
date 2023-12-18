@@ -7,7 +7,7 @@ import Technology from '../component/Technology/Technology'
 const About = () => {
   return (
     <>
-      <div className='dark:bg-gray-800 bg-[#F7F9FC]'>
+      <div>
         <MainLayout>
           <About_myself></About_myself>
           <Technology></Technology>
