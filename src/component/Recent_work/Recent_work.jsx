@@ -9,7 +9,7 @@ import projectData from '../Services/PortfolioData'
 const Recent_work = () => {
     return (
         <>
-            <section className="dark:bg-none bg-[url('./assets/recant_work_bg.png')] bg-center bg-no-repeat bg-cover">
+            <section className="dark:bg-[url('./assets/bg-img/recent-bg-dark.svg')] bg-[url('./assets/bg-img/recent-bg-light.svg')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2'>
                     <h2 className='text-[#222831] text-[18px] font-semibold dark:text-white'>Explore my work</h2>
                     <h1 className='custom-header-stroke text-transparent text-[28px] font-bold uppercase tracking-wider'>Recent Work</h1>

@@ -16,7 +16,7 @@ import Git from '../../assets/git.svg'
 const Technology = () => {
     return (
         <>
-            <section className="dark:bg-none bg-[url('./assets/about-bg.png')] bg-center bg-no-repeat bg-cover">
+            <section className="dark:bg-[url('./assets/bg-img/technology-bg-dark.svg')] bg-[url('./assets/bg-img/technology-bg-light.svg')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2'>
                     <div className='grid grid-cols-1 md:grid-cols-12 gap-6'>
                         <div className='md:col-span-4 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2] dark:bg-[#2d3a4f] dark:border-[#404E68]'>

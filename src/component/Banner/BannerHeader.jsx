@@ -5,10 +5,11 @@ import BannerImg from '../../assets/banner-img.svg'
 import BannerBGLight from '../../assets/slider-light.svg'
 
 
+
 const BannerHeader = () => {
   return (
     <>
-      <div className=" banner-part dark:bg-none bg-[url('./assets/banner-bg-light.png')]  bg-center bg-no-repeat bg-cover">
+      <div className=" banner-part dark:bg-[url('./assets/bg-img/banner-bg-dark.svg')] bg-[url('./assets/bg-img/banner-bg-light.svg')]  bg-center bg-no-repeat bg-cover">
         <div className=" lg:py-[70px] max-w-7xl mx-auto px-2">
           <div className='grid grid-cols-1 md:grid-cols-7 gap-6'>
             <div className=' md:col-span-4 flex items-center'>

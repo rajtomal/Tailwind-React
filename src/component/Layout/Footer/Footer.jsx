@@ -3,7 +3,7 @@ import Logo from '../../../assets/logo.svg'
 const Footer = () => {
     return (
         <>
-            <section className="dark:bg-none bg-[url('./assets/footer-bg.png')] bg-center bg-no-repeat bg-cover">
+            <section className="dark:bg-[url('./assets/bg-img/footer-bg-dark.svg')] bg-[url('./assets/bg-img/footer-bg-light.svg')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:pt-[50px] pt-[50px] max-w-7xl mx-auto px-2'>
 
                     <div className='flex justify-center items-center'>
