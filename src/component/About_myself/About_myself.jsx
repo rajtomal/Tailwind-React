@@ -16,9 +16,9 @@ const About_myself = () => {
                                         <h4 className='text-[16px] font-semibold text-[#222831] text-center dark:text-white'>Years Of Experience</h4>
                                     </div>
                                     <div className="overlay-experience w-[50%] absolute bottom-[20px] right-[0]">
-                                        <div className="flex items-center justify-between  rounded-[10px] py-[10px] px-[15px] bg-gradient-to-r from-[#46C5E8]/50 border border-[#46C5E8] ">
-                                            <h3 className='text-[20px] font-semibold text-[#222831] mr-[15px]'><CountUp delay={2} end={100} />%</h3>
-                                            <p className='text-[16px] font-medium text-[#222831]'>Clients Satisfections</p>
+                                        <div className="flex items-center justify-between  rounded-[10px] py-[10px] px-[15px] bg-gradient-to-r from-[#46C5E8]/50 dark:bg-gradient-to-l from-[#46C5E8]/50 border border-[#46C5E8] ">
+                                            <h3 className='text-[20px] font-semibold text-[#222831] mr-[15px] dark:text-white'><CountUp delay={2} end={100} />%</h3>
+                                            <p className='text-[16px] font-medium text-[#222831] dark:text-white'>Clients Satisfections</p>
                                         </div>
                                     </div>
                                 </div>

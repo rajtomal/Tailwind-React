@@ -29,7 +29,7 @@ const BannerHeader = () => {
               </div>
             </div>
             <div className='md:col-span-3'>
-              <img className='m-auto rounded-2xl dark:bg-[#2d3a4f] bg-white ' src={BannerImg} alt="banner-bg" />
+              <img className='m-auto rounded-2xl bg-white border border-[#E2E2E2] dark:bg-[#2d3a4f] dark:border-[#566279]' src={BannerImg} alt="banner-bg" />
             </div>
           </div>
         </div >

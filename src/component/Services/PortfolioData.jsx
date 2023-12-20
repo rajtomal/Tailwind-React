@@ -12,7 +12,7 @@ const projectData = [
         title: 'aDiant Traveler-1',
         img: Saferide,
         link: 'https://www.facebook.com/',
-        tags: ['UI-UX', 'Prototype', 'Figma', 'PSD'],
+        tags: ['HTML', 'CSS', 'Tailwind', 'Bootstrap'], //max-6
     },
     {
         title: 'SolidWorks-2',

@@ -68,7 +68,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex justify-between py-5  border-t-[1px]  border-[#E2E2E2]'>
+                    <div className='flex justify-between py-5  border-t-[1px]  border-[#E2E2E2] dark:border-[#566279]'>
                         <div>
                             <p className='text-[14px] font-regular text-[#222831] dark:text-slate-400 '>© <span className='text-[#FF014F] font-semibold'>Tomal.M</span> 2023 - Present.</p>
                         </div>

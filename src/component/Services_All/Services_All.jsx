@@ -12,7 +12,7 @@ const Services_All = () => {
                     <h2 className='text-[#222831] text-[18px] font-semibold text-center dark:text-white'>Explore Services</h2>
                     <h1 className='custom-header-stroke text-transparent text-[28px] text-center font-bold uppercase tracking-wider'>provide services</h1>
                     <div className='grid grid-cols-1 md:grid-cols-12 text-[#222831] gap-6 mt-5'>
-                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#697586]">
+                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#566279]">
                             <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-800/50'>
                                 <div className="flex justify-center items-center m-auto ">
                                     <img className='w-full' src={UIUX} alt="" />
@@ -26,7 +26,7 @@ const Services_All = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#697586]">
+                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#566279]">
                             <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-800/50'>
                                 <div className="flex justify-center items-center m-auto">
                                     <img className='w-full' src={Web} alt="" />
@@ -38,7 +38,7 @@ const Services_All = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#697586]">
+                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#566279]">
                             <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-800/50'>
                                 <div className="flex justify-center items-center m-auto">
                                     <img className='w-full' src={MobileDesign} alt="" />
@@ -50,7 +50,7 @@ const Services_All = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#697586]">
+                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#566279]">
                             <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-800/50'>
                                 <div className="flex justify-center items-center m-auto">
                                     <img className='w-full' src={FrontEnd} alt="" />

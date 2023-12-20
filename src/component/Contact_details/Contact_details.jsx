@@ -1,61 +1,51 @@
 import React from 'react'
+import { Icon } from '@iconify/react';
 
 const Contact_details = () => {
     return (
         <>
-            <section className="bg-[url('./assets/about-bg.png')] bg-center bg-no-repeat bg-cover">
-                <div className='lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2'>
-                    <h2 className='text-[#222831] text-[18px] font-semibold'>One steps to connect</h2>
+            <section className="dark:bg-[url('./assets/bg-img/technology-bg-dark.svg')] bg-[url('./assets/bg-img/technology-bg-light.svg')] bg-center bg-no-repeat bg-cover">
+                <div className='lg:py-[100px] py-[50px] max-w-7xl mx-auto px-2'>
+                    <h2 className='text-[#222831] text-[18px] font-semibold dark:text-white'>One steps to connect</h2>
                     <h1 className='custom-header-stroke text-transparent text-[28px] font-bold uppercase tracking-wider'>Contact Us</h1>
                     <div className='grid grid-cols-1 md:grid-cols-12 gap-6 mt-5'>
-                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2]'>
-                            <div className='w-[50px] h-[50px] border border-[#E2E2E2 rounded-[10px] flex items-center justify-center mb-[40px]'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="26" viewBox="0 0 22 26" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9984 10.9514C11.8282 10.9514 12.6241 10.6218 13.2109 10.035C13.7977 9.44818 14.1273 8.65231 14.1273 7.82246C14.1273 6.9926 13.7977 6.19673 13.2109 5.60994C12.6241 5.02314 11.8282 4.69348 10.9984 4.69348C10.1685 4.69348 9.37264 5.02314 8.78584 5.60994C8.19904 6.19673 7.86938 6.9926 7.86938 7.82246C7.86938 8.65231 8.19904 9.44818 8.78584 10.035C9.37264 10.6218 10.1685 10.9514 10.9984 10.9514ZM10.9984 6.25797C11.4133 6.25797 11.8112 6.4228 12.1046 6.7162C12.398 7.0096 12.5628 7.40753 12.5628 7.82246C12.5628 8.23738 12.398 8.63532 12.1046 8.92872C11.8112 9.22211 11.4133 9.38694 10.9984 9.38694C10.5834 9.38694 10.1855 9.22211 9.8921 8.92872C9.5987 8.63532 9.43387 8.23738 9.43387 7.82246C9.43387 7.40753 9.5987 7.0096 9.8921 6.7162C10.1855 6.4228 10.5834 6.25797 10.9984 6.25797Z" fill="#5B5B5B" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.95825 7.48764C3.95825 11.6695 8.10884 18.7738 10.9984 18.7738C13.8896 18.7738 18.0386 11.6695 18.0386 7.48764C18.0386 3.36365 14.8987 0 10.9984 0C7.09818 0 3.95825 3.36365 3.95825 7.48764ZM16.4742 7.48764C16.4742 10.9186 12.8007 17.2094 10.9984 17.2094C9.19772 17.2094 5.52274 10.9201 5.52274 7.48764C5.52274 4.20378 7.98681 1.56449 10.9984 1.56449C14.0101 1.56449 16.4742 4.20378 16.4742 7.48764Z" fill="#5B5B5B" />
-                                    <path d="M16.3725 11.9526C16.1854 11.8721 16.0371 11.7218 15.9591 11.5337C15.8811 11.3456 15.8795 11.1345 15.9546 10.9453C16.0298 10.756 16.1758 10.6035 16.3616 10.5202C16.5475 10.4369 16.7584 10.4294 16.9497 10.4992C17.5859 10.7515 18.1592 11.1399 18.6295 11.6372C19.0997 12.1345 19.4555 12.7285 19.672 13.3778L21.759 19.6358C21.9943 20.3416 22.0585 21.0932 21.9463 21.8287C21.834 22.5642 21.5485 23.2624 21.1133 23.8659C20.6781 24.4693 20.1057 24.9607 19.4432 25.2994C18.7808 25.6381 18.0473 25.8144 17.3033 25.8139H4.69355C3.94981 25.814 3.21672 25.6372 2.55468 25.2983C1.89265 24.9594 1.32065 24.468 0.885801 23.8646C0.450957 23.2612 0.165728 22.5632 0.0536241 21.8279C-0.0584803 21.0927 0.00574923 20.3413 0.241019 19.6358L2.32648 13.3778C2.54669 12.7169 2.91126 12.1133 3.39375 11.6108C3.87623 11.1083 4.46453 10.7195 5.11596 10.4726C5.21201 10.4361 5.3143 10.4189 5.41699 10.422C5.51969 10.425 5.62077 10.4483 5.71447 10.4904C5.80818 10.5326 5.89266 10.5927 5.96311 10.6675C6.03356 10.7423 6.08859 10.8302 6.12506 10.9263C6.16152 11.0223 6.17872 11.1246 6.17565 11.2273C6.17259 11.33 6.14933 11.4311 6.1072 11.5248C6.06507 11.6185 6.00489 11.703 5.93011 11.7734C5.85533 11.8439 5.7674 11.8989 5.67135 11.9354C5.23652 12.0999 4.8438 12.3592 4.52176 12.6945C4.19972 13.0298 3.95644 13.4327 3.80962 13.8738L1.72415 20.1317C1.56748 20.6021 1.52483 21.103 1.59972 21.5931C1.67461 22.0832 1.86489 22.5485 2.15488 22.9506C2.44487 23.3528 2.82627 23.6802 3.26765 23.9061C3.70903 24.1319 4.19776 24.2496 4.69355 24.2495H17.3064C17.8023 24.2494 18.291 24.1315 18.7324 23.9055C19.1737 23.6795 19.555 23.3518 19.8449 22.9495C20.1347 22.5472 20.3248 22.0818 20.3995 21.5916C20.4741 21.1014 20.4312 20.6005 20.2743 20.1302L18.1904 13.8722C18.046 13.4395 17.8087 13.0437 17.4952 12.7124C17.1817 12.381 16.7996 12.1223 16.3756 11.9541L16.3725 11.9526Z" fill="#5B5B5B" />
-                                </svg>
+                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2] dark:bg-[#2d3a4f] dark:border-[#566279]'>
+                            <div className='w-[50px] h-[50px] border border-[#E2E2E2 rounded-[10px] flex items-center justify-center mb-[40px] dark:border-[#566279]'>
+                                <Icon className='dark:text-slate-300 text-slate-600' icon="mingcute:location-3-line" width="28" />
                             </div>
                             <div>
-                                <h1 className='text-[22px] font-semibold text-[#222831] pb-[5px]'>Location</h1>
-                                <p className='text-[16px] '>Bonani, Dhaka, Bangladesh.</p>
+                                <h1 className='text-[22px] font-semibold text-[#222831] pb-[5px] dark:text-white'>Location</h1>
+                                <p className='text-[16px] dark:text-slate-300 text-slate-600'>Bonani, Dhaka, Bangladesh.</p>
                             </div>
                         </div>
-                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2]'>
-                            <div className='w-[50px] h-[50px] border border-[#E2E2E2 rounded-[10px] flex items-center justify-center mb-[40px]'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
-                                    <path d="M0.846154 0.846154V0C0.62174 0 0.406517 0.089148 0.247833 0.247833C0.089148 0.406517 0 0.62174 0 0.846154H0.846154ZM21.1538 0.846154H22C22 0.62174 21.9109 0.406517 21.7522 0.247833C21.5935 0.089148 21.3783 0 21.1538 0V0.846154ZM0.846154 1.69231H21.1538V0H0.846154V1.69231ZM20.3077 0.846154V14.3846H22V0.846154H20.3077ZM18.8974 15.7949H3.10256V17.4872H18.8974V15.7949ZM1.69231 14.3846V0.846154H0V14.3846H1.69231ZM3.10256 15.7949C2.3241 15.7949 1.69231 15.1631 1.69231 14.3846H0C0 15.2075 0.326876 15.9966 0.90872 16.5785C1.49056 17.1603 2.27971 17.4872 3.10256 17.4872V15.7949ZM20.3077 14.3846C20.3077 15.1631 19.6759 15.7949 18.8974 15.7949V17.4872C19.7203 17.4872 20.5094 17.1603 21.0913 16.5785C21.6731 15.9966 22 15.2075 22 14.3846H20.3077Z" fill="#5B5B5B" />
-                                    <path d="M0.846191 0.846191L11 11L21.1539 0.846191" stroke="#5B5B5B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
+                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2] dark:bg-[#2d3a4f] dark:border-[#566279]'>
+                            <div className='w-[50px] h-[50px] border border-[#E2E2E2 rounded-[10px] flex items-center justify-center mb-[40px] dark:border-[#566279]'>
+                                <Icon className='dark:text-slate-300 text-slate-600' icon="ion:mail-outline" width="28" />
                             </div>
                             <div>
-                                <h1 className='text-[22px] font-semibold text-[#222831] pb-[5px]'>Mail</h1>
-                                <p className='text-[16px] '>sj.tomalahmedraj@gmail.com</p>
-                                <a className='underline font-regular mt-3 inline-block' href="mailto:sj.tomalahmedraj@gmail.com">Send Mail</a>
+                                <h1 className='text-[22px] font-semibold text-[#222831] pb-[5px] dark:text-white'>Mail</h1>
+                                <p className='text-[16px] dark:text-slate-300 text-slate-600'>sj.tomalahmedraj@gmail.com</p>
+                                <a className='underline font-regular mt-3 inline-block text-[#46CC8F]' href="mailto:sj.tomalahmedraj@gmail.com">Send Mail</a>
                             </div>
                         </div>
-                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2]'>
-                            <div className='w-[50px] h-[50px] border border-[#E2E2E2 rounded-[10px] flex items-center justify-center mb-[40px]'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
-                                    <path d="M18.794 3.20106C17.7804 2.18238 16.5732 1.3747 15.2426 0.825119C13.9121 0.275543 12.4849 -0.00492811 11.0442 6.55264e-05C5.00804 6.55264e-05 0.0884424 4.89505 0.0884424 10.901C0.0884424 12.826 0.596985 14.696 1.54774 16.346L0 22L5.80402 20.482C7.40703 21.351 9.20904 21.813 11.0442 21.813C17.0804 21.813 22 16.918 22 10.912C22 7.99704 20.8613 5.25805 18.794 3.20106ZM11.0442 19.965C9.40804 19.965 7.80502 19.525 6.401 18.7L6.06935 18.502L2.6201 19.404L3.53769 16.06L3.31658 15.719C2.40756 14.2747 1.92488 12.6052 1.92362 10.901C1.92362 5.90705 6.01407 1.83706 11.0332 1.83706C13.4653 1.83706 15.7538 2.78306 17.4673 4.49905C18.3158 5.33941 18.9882 6.33898 19.4456 7.43981C19.9029 8.54065 20.1361 9.72086 20.1317 10.912C20.1538 15.906 16.0633 19.965 11.0442 19.965ZM16.0412 13.189C15.7648 13.057 14.4161 12.397 14.1729 12.298C13.9186 12.21 13.7417 12.166 13.5538 12.43C13.3658 12.705 12.8462 13.321 12.6915 13.497C12.5367 13.684 12.3709 13.706 12.0945 13.563C11.8181 13.431 10.9337 13.134 9.89447 12.21C9.07638 11.484 8.53467 10.593 8.36884 10.318C8.21407 10.043 8.34673 9.90004 8.49045 9.75704C8.61206 9.63604 8.76683 9.43804 8.8995 9.28404C9.03216 9.13004 9.08744 9.00904 9.17588 8.83304C9.26432 8.64604 9.2201 8.49204 9.15377 8.36004C9.08744 8.22804 8.53467 6.88605 8.31357 6.33605C8.09246 5.80805 7.8603 5.87405 7.69447 5.86305H7.16382C6.97588 5.86305 6.68844 5.92905 6.43417 6.20405C6.19095 6.47905 5.48342 7.13904 5.48342 8.48104C5.48342 9.82304 6.46734 11.121 6.6 11.297C6.73266 11.484 8.53467 14.234 11.2764 15.411C11.9286 15.697 12.4372 15.862 12.8352 15.983C13.4874 16.192 14.0844 16.159 14.5598 16.093C15.0905 16.016 16.1849 15.433 16.406 14.795C16.6382 14.157 16.6382 13.618 16.5608 13.497C16.4834 13.376 16.3176 13.321 16.0412 13.189Z" fill="#5B5B5B" />
-                                </svg>
+                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2] dark:bg-[#2d3a4f] dark:border-[#566279]'>
+                            <div className='w-[50px] h-[50px] border border-[#E2E2E2 rounded-[10px] flex items-center justify-center mb-[40px] dark:border-[#566279]'>
+                                <Icon className='dark:text-slate-300 text-slate-600' icon="ic:outline-whatsapp" width="28" />
                             </div>
                             <div>
-                                <h1 className='text-[22px] font-semibold text-[#222831] pb-[5px]'>WhatsApp</h1>
-                                <p className='text-[16px] '>+880 1737-746673</p>
-                                <a className='underline font-regular mt-3 inline-block' href="https://wa.me/8801737746673" target='_blank'>Send Message</a>
+                                <h1 className='text-[22px] font-semibold text-[#222831] pb-[5px] dark:text-white'>WhatsApp</h1>
+                                <p className='text-[16px] dark:text-slate-300 text-slate-600'>+880 1737-746673</p>
+                                <a className='underline font-regular mt-3 inline-block text-[#46CC8F]' href="https://wa.me/8801737746673" target='_blank'>Send Message</a>
                             </div>
                         </div>
-                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2]'>
-                            <div className='w-[50px] h-[50px] border border-[#E2E2E2 rounded-[10px] flex items-center justify-center mb-[40px]'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.95122 0C2.16851 0 1.41785 0.310931 0.864392 0.864392C0.310931 1.41785 0 2.16851 0 2.95122C0 3.73393 0.310931 4.48459 0.864392 5.03805C1.41785 5.59151 2.16851 5.90244 2.95122 5.90244C3.73393 5.90244 4.48459 5.59151 5.03805 5.03805C5.59151 4.48459 5.90244 3.73393 5.90244 2.95122C5.90244 2.16851 5.59151 1.41785 5.03805 0.864392C4.48459 0.310931 3.73393 0 2.95122 0ZM1.60976 2.95122C1.60976 2.59544 1.75109 2.25423 2.00266 2.00266C2.25423 1.75109 2.59544 1.60976 2.95122 1.60976C3.307 1.60976 3.6482 1.75109 3.89978 2.00266C4.15135 2.25423 4.29268 2.59544 4.29268 2.95122C4.29268 3.307 4.15135 3.6482 3.89978 3.89978C3.6482 4.15135 3.307 4.29268 2.95122 4.29268C2.59544 4.29268 2.25423 4.15135 2.00266 3.89978C1.75109 3.6482 1.60976 3.307 1.60976 2.95122ZM0 7.2439C0 7.03044 0.0847993 6.82571 0.235743 6.67477C0.386687 6.52382 0.591411 6.43902 0.804878 6.43902H5.09756C5.31103 6.43902 5.51575 6.52382 5.6667 6.67477C5.81764 6.82571 5.90244 7.03044 5.90244 7.2439V21.1951C5.90244 21.4086 5.81764 21.6133 5.6667 21.7643C5.51575 21.9152 5.31103 22 5.09756 22H0.804878C0.591411 22 0.386687 21.9152 0.235743 21.7643C0.0847993 21.6133 0 21.4086 0 21.1951V7.2439ZM1.60976 8.04878V20.3902H4.29268V8.04878H1.60976ZM7.5122 7.2439C7.5122 7.03044 7.597 6.82571 7.74794 6.67477C7.89888 6.52382 8.10361 6.43902 8.31707 6.43902H12.6098C12.8232 6.43902 13.0279 6.52382 13.1789 6.67477C13.3298 6.82571 13.4146 7.03044 13.4146 7.2439V7.70966L13.8815 7.50898C14.6864 7.165 15.5403 6.94953 16.412 6.87044C19.39 6.6 22 8.93951 22 11.9444V21.1951C22 21.4086 21.9152 21.6133 21.7643 21.7643C21.6133 21.9152 21.4086 22 21.1951 22H16.9024C16.689 22 16.4842 21.9152 16.3333 21.7643C16.1824 21.6133 16.0976 21.4086 16.0976 21.1951V13.6829C16.0976 13.3271 15.9562 12.9859 15.7047 12.7344C15.4531 12.4828 15.1119 12.3415 14.7561 12.3415C14.4003 12.3415 14.0591 12.4828 13.8075 12.7344C13.556 12.9859 13.4146 13.3271 13.4146 13.6829V21.1951C13.4146 21.4086 13.3298 21.6133 13.1789 21.7643C13.0279 21.9152 12.8232 22 12.6098 22H8.31707C8.10361 22 7.89888 21.9152 7.74794 21.7643C7.597 21.6133 7.5122 21.4086 7.5122 21.1951V7.2439ZM9.12195 8.04878V20.3902H11.8049V13.6829C11.8049 12.9002 12.1158 12.1496 12.6693 11.5961C13.2227 11.0426 13.9734 10.7317 14.7561 10.7317C15.5388 10.7317 16.2895 11.0426 16.8429 11.5961C17.3964 12.1496 17.7073 12.9002 17.7073 13.6829V20.3902H20.3902V11.9444C20.3902 9.90107 18.6077 8.28702 16.559 8.47376C15.8552 8.53779 15.1658 8.7116 14.5157 8.98888L12.9274 9.67034C12.8049 9.72296 12.6713 9.74433 12.5384 9.73251C12.4056 9.7207 12.2779 9.67608 12.1666 9.60267C12.0553 9.52925 11.9639 9.42934 11.9008 9.3119C11.8377 9.19446 11.8047 9.06318 11.8049 8.92985V8.04878H9.12195Z" fill="#5B5B5B" />
-                                </svg>
+                        <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2] dark:bg-[#2d3a4f] dark:border-[#566279]'>
+                            <div className='w-[50px] h-[50px] border border-[#E2E2E2] rounded-[10px] flex items-center justify-center mb-[40px] dark:border-[#566279]'>
+                                <Icon className='dark:text-slate-300 text-slate-600' icon="basil:linkedin-outline" width="28" />
                             </div>
                             <div>
-                                <h1 className='text-[22px] font-semibold text-[#222831] pb-[5px]'>Linkedin</h1>
-                                <p className='text-[16px] '>Tomal .M</p>
-                                <a className='underline font-regular mt-3 inline-block' href="https://www.linkedin.com/in/tomal-m-6a5076232" target='_blank'>Open Linkedin</a>
+                                <h1 className='text-[22px] font-semibold text-[#222831] pb-[5px] dark:text-white'>Linkedin</h1>
+                                <p className='text-[16px] dark:text-slate-300 text-slate-600'>Tomal .M</p>
+                                <a className='underline font-regular mt-3 inline-block text-[#46CC8F]' href="https://www.linkedin.com/in/tomal-m-6a5076232" target='_blank'>Open Linkedin</a>
                             </div>
                         </div>
                     </div>
