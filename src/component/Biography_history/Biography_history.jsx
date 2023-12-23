@@ -6,37 +6,39 @@ const Biography_history = () => {
     return (
         <>
             <section className="dark:bg-[url('./assets/bg-img/biography-bg-dark.svg')] bg-[url('./assets/bg-img/biography-bg-light.svg')] bg-center bg-no-repeat bg-cover">
-                <div className='lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2'>
-                    <h2 className='text-[#222831] text-[18px] font-semibold text-center dark:text-white'>Explore History</h2>
-                    <h1 className='custom-header-stroke text-transparent text-[28px] font-bold uppercase tracking-wider text-center '>Biography Experiences</h1>
-                    <div className='grid grid-cols-1 md:grid-cols-12 gap-3 mt-5'>
-                        <div className='md:col-span-6 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#566279]'>
+                <div className='lg:py-[70px] py-[30px] max-w-7xl mx-auto px-2'>
+                    <h2 className='text-[#222831] lg:text-[18px] text-[16px] font-semibold text-center dark:text-white'>Explore History</h2>
+                    <h1 className='custom-header-stroke text-transparent lg:text-[28px] text-[22px] font-bold uppercase tracking-wider text-center '>Biography Experiences</h1>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-5'>
+                        <div className='rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#566279]'>
                             <div className='flex gap-4 items-center'>
                                 <div className="bg-[url('./assets/myself-icon-bg.svg')] bg-center bg-no-repeat bg-cover w-[62px] h-[54px] flex justify-center items-center">
                                     <Icon className='text-[#27865c]' icon="material-symbols-light:home-work-outline-rounded" width="36" />
                                 </div>
                                 <div>
-                                    <h2 className='text-[18px] font-semibold text-[#222831] dark:text-white'>Full Time (Official)</h2>
+                                    <h2 className='lg:text-[18px] text-[16px] font-semibold text-[#222831] dark:text-white'>Full Time (Official)</h2>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20 dark:bg-[#536f9b]/20 dark:border-[#566279]'>
-                                <div className='flex items-center justify-between gap-4'>
+                            <div className='flex items-center lg:justify-between gap-4 px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20 dark:bg-[#536f9b]/20 dark:border-[#566279]'>
+                                <div className='lg:w-[10%]'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
                                             <img src={OfficeLogo} alt="office-logo" />
                                         </div>
                                     </div>
+                                </div>
+                                <div className='lg:w-[90%] lg:flex lg:items-center lg:justify-between'>
                                     <div>
-                                        <h4 className='text-[16px] font-semibold text-[#222831] dark:text-slate-300 '>Intellier Ltd.</h4>
+                                        <h4 className='lg:text-[16px] text-[16px] font-semibold text-[#222831] dark:text-slate-300 '>Intellier Ltd.</h4>
                                         <p className='text-[14px] font-regular text-[#808080] dark:text-slate-400'>Jr. Software Engineer</p>
                                     </div>
-                                </div>
-                                <div>
-                                    <h4 className='text-[14px] font-regular text-[#222831] dark:text-slate-300 '>Apr 2022- Present</h4>
+                                    <div>
+                                        <h4 className='text-[14px] font-semibold text-[#222831] dark:text-slate-300 '>Apr 2022- Present</h4>
+                                    </div>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20 dark:bg-[#536f9b]/20 dark:border-[#566279] '>
-                                <div className='flex items-center justify-between gap-4'>
+                            <div className='flex items-center lg:justify-between gap-4 px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20 dark:bg-[#536f9b]/20 dark:border-[#566279] '>
+                                <div className='lg:w-[10%]'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
@@ -45,27 +47,29 @@ const Biography_history = () => {
                                             </svg>
                                         </div>
                                     </div>
+                                </div>
+                                <div className='lg:w-[90%] lg:flex lg:items-center lg:justify-between'>
                                     <div>
                                         <h4 className='text-[16px] font-semibold text-[#222831] dark:text-slate-300 '>G-soft</h4>
                                         <p className='text-[14px] font-regular text-[#808080] dark:text-slate-400'>Web Designer <span className='text-[12px]'>(Remote)</span></p>
                                     </div>
-                                </div>
-                                <div>
-                                    <h4 className='text-[14px] font-regular text-[#222831] dark:text-slate-300 '>Jan 2020 - Mar 2021</h4>
+                                    <div>
+                                        <h4 className='text-[14px] font-semibold text-[#222831] dark:text-slate-300 '>Jan 2020 - Mar 2021</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className='md:col-span-6 rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#566279]'>
+                        <div className='rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#566279]'>
                             <div className='flex gap-4 items-center'>
                                 <div className="bg-[url('./assets/myself-icon-bg.svg')] bg-center bg-no-repeat bg-cover w-[62px] h-[54px] flex justify-center items-center">
-                                <Icon className='text-[#27865c]' icon="fluent-mdl2:education" width="32" />
+                                    <Icon className='text-[#27865c]' icon="fluent-mdl2:education" width="32" />
                                 </div>
                                 <div>
                                     <h2 className='text-[18px] font-semibold text-[#222831] dark:text-white'>Education (History)</h2>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20 dark:border-[#566279] dark:bg-[#536f9b]/20'>
-                                <div className='flex items-center justify-between gap-4'>
+                            <div className='flex items-center lg:justify-between gap-4 px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20 dark:border-[#566279] dark:bg-[#536f9b]/20'>
+                                <div className='lg:w-[10%]'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16 19" fill="none">
@@ -74,17 +78,20 @@ const Biography_history = () => {
                                             </svg>
                                         </div>
                                     </div>
+                                </div>
+                                <div className='lg:w-[90%] lg:flex lg:items-center lg:justify-between'>
                                     <div>
                                         <h4 className='text-[16px] font-semibold text-[#222831] dark:text-slate-300'>Sonargaon University</h4>
                                         <p className='text-[14px] font-regular text-[#808080] dark:text-slate-400'>B.Sc. in CSE</p>
                                     </div>
-                                </div>
-                                <div>
-                                    <h4 className='text-[14px] font-regular text-[#222831] dark:text-slate-300 '>Jan 2023 - Present</h4>
+
+                                    <div>
+                                        <h4 className='text-[14px] font-semibold text-[#222831] dark:text-slate-300 '>Jan 2023 - Present</h4>
+                                    </div>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20 dark:border-[#566279] dark:bg-[#536f9b]/20'>
-                                <div className='flex items-center justify-between gap-4'>
+                            <div className='flex items-center lg:justify-between gap-4 px-[15px] py-[10px] rounded-[10px] mt-4 bg-[#E2E2E2]/20 dark:border-[#566279] dark:bg-[#536f9b]/20'>
+                                <div className='lg:w-[10%]'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16 19" fill="none">
@@ -93,17 +100,19 @@ const Biography_history = () => {
                                             </svg>
                                         </div>
                                     </div>
+                                </div>
+                                <div className='lg:w-[90%] lg:flex lg:items-center lg:justify-between'>
                                     <div>
                                         <h4 className='text-[16px] font-semibold text-[#222831] dark:text-slate-300'>Rangpur Polytechnic Institute</h4>
                                         <p className='text-[14px] font-regular text-[#808080] dark:text-slate-400'>Diploma in Engineering, (CSE)</p>
                                     </div>
-                                </div>
-                                <div>
-                                    <h4 className='text-[14px] font-regular text-[#222831] dark:text-slate-300 '>Aug 2017 - Mar 2022</h4>
+                                    <div>
+                                        <h4 className='text-[14px] font-semibold text-[#222831] dark:text-slate-300 '>Aug 2017 - Mar 2022</h4>
+                                    </div>
                                 </div>
                             </div>
-                            <div className='flex items-center justify-between px-[15px] py-[10px] rounded-[10px] mt-4 mb-2 bg-[#E2E2E2]/20 dark:border-[#566279] dark:bg-[#536f9b]/20'>
-                                <div className='flex items-center justify-between gap-4'>
+                            <div className='flex items-center lg:justify-between gap-4 px-[15px] py-[10px] rounded-[10px] mt-4 mb-2 bg-[#E2E2E2]/20 dark:border-[#566279] dark:bg-[#536f9b]/20'>
+                                <div className='lg:w-[10%]'>
                                     <div className='h-[50px] w-[50px] border border-[#E9E9E9] rounded-[50%] flex justify-center items-center'>
                                         <div className='h-[40px] w-[40px] rounded-[50%] overflow-hidden flex justify-center items-center bg-white'>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16 19" fill="none">
@@ -112,13 +121,15 @@ const Biography_history = () => {
                                             </svg>
                                         </div>
                                     </div>
+                                </div>
+                                <div className='lg:w-[90%] lg:flex lg:items-center lg:justify-between'>
                                     <div>
                                         <h4 className='text-[16px] font-semibold text-[#222831] dark:text-slate-300'>Sukhanpukur High School</h4>
                                         <p className='text-[14px] font-regular text-[#808080] dark:text-slate-400'>Secondary School Certificate (SSC)</p>
                                     </div>
-                                </div>
-                                <div>
-                                    <h4 className='text-[14px] font-regular text-[#222831] dark:text-slate-300 '>Feb 2017</h4>
+                                    <div>
+                                        <h4 className='text-[14px] font-semibold text-[#222831] dark:text-slate-300 '>Feb 2017</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>

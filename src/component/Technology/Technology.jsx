@@ -17,8 +17,8 @@ const Technology = () => {
     return (
         <>
             <section className="dark:bg-[url('./assets/bg-img/technology-bg-dark.svg')] bg-[url('./assets/bg-img/technology-bg-light.svg')] bg-center bg-no-repeat bg-cover">
-                <div className='lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2'>
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+                <div className='lg:py-[70px] py-[30px] max-w-7xl mx-auto px-2'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                         <div className='rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2] dark:bg-[#2d3a4f] dark:border-[#566279]'>
                             <div className='grid grid-cols-2 md:grid-cols-3 gap-4 '>
                                 <div className='bg-gradient-to-b from-[#0ACF83]  rounded-[10px]'>
@@ -64,7 +64,7 @@ const Technology = () => {
                                     <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-800/50'>
                                         <img className='m-auto' src={TechnologyImg} alt="Technology" />
                                     </div>
-                                    <h2 className='dark:text-white text-[#222831] text-center text-[24px] uppercase tracking-wide font-bold pt-3'>Design & Development Technology</h2>
+                                    <h2 className='dark:text-white text-[#222831] text-center lg:text-[24px] text-[18px] uppercase tracking-wide font-bold pt-3'>Design & Development Technology</h2>
                                 
                             </div>
                         </div>

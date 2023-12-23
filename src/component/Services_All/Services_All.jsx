@@ -9,11 +9,11 @@ const Services_All = () => {
         <>
             <section className="about-myself dark:bg-[url('./assets/bg-img/satisfaction-bg-dark.svg')] bg-[url('./assets/bg-img/satisfaction-bg-light.svg')] bg-center bg-no-repeat bg-cover">
                 <div className=" lg:py-[70px] py-[50px] max-w-7xl mx-auto px-2">
-                    <h2 className='text-[#222831] text-[18px] font-semibold text-center dark:text-white'>Explore Services</h2>
-                    <h1 className='custom-header-stroke text-transparent text-[28px] text-center font-bold uppercase tracking-wider'>provide services</h1>
-                    <div className='grid grid-cols-1 md:grid-cols-12 text-[#222831] gap-6 mt-5'>
-                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#566279]">
-                            <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-800/50'>
+                    <h2 className='text-[#222831] lg:text-[18px] text-[16px] font-semibold text-center dark:text-white'>Explore Services</h2>
+                    <h1 className='custom-header-stroke text-transparent lg:text-[28px] text-[22px] text-center font-bold uppercase tracking-wider'>provide services</h1>
+                    <div className='grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 text-[#222831] gap-6 mt-5'>
+                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-[#273346] dark:border-[#566279]">
+                            <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-700'>
                                 <div className="flex justify-center items-center m-auto ">
                                     <img className='w-full' src={UIUX} alt="" />
                                 </div>
@@ -26,8 +26,8 @@ const Services_All = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#566279]">
-                            <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-800/50'>
+                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-[#273346] dark:border-[#566279]">
+                            <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-700'>
                                 <div className="flex justify-center items-center m-auto">
                                     <img className='w-full' src={Web} alt="" />
                                 </div>
@@ -38,8 +38,8 @@ const Services_All = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#566279]">
-                            <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-800/50'>
+                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-[#273346] dark:border-[#566279]">
+                            <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-700'>
                                 <div className="flex justify-center items-center m-auto">
                                     <img className='w-full' src={MobileDesign} alt="" />
                                 </div>
@@ -50,8 +50,8 @@ const Services_All = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-slate-700 dark:border-[#566279]">
-                            <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-800/50'>
+                        <div className="md:col-span-3 px-3 py-3 bg-white border border-[#E2E2E2] rounded-[10px] dark:bg-[#273346] dark:border-[#566279]">
+                            <div className='bg-[#F7F9FC] rounded-[10px] p-3 dark:bg-slate-700'>
                                 <div className="flex justify-center items-center m-auto">
                                     <img className='w-full' src={FrontEnd} alt="" />
                                 </div>
