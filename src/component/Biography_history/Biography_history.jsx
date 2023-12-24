@@ -9,7 +9,7 @@ const Biography_history = () => {
                 <div className='lg:py-[70px] py-[30px] max-w-7xl mx-auto px-2'>
                     <h2 className='text-[#222831] lg:text-[18px] text-[16px] font-semibold text-center dark:text-white'>Explore History</h2>
                     <h1 className='custom-header-stroke text-transparent lg:text-[28px] text-[22px] font-bold uppercase tracking-wider text-center '>Biography Experiences</h1>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-5'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-5'>
                         <div className='rounded-[10px] mx-3 md:m-0 p-3 bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#566279]'>
                             <div className='flex gap-4 items-center'>
                                 <div className="bg-[url('./assets/myself-icon-bg.svg')] bg-center bg-no-repeat bg-cover w-[62px] h-[54px] flex justify-center items-center">
