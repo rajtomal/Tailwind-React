@@ -7,8 +7,8 @@ const About_myself = () => {
         <>
             <section className="about-myself dark:bg-[url('./assets/bg-img/about-bg-dark.svg')] bg-[url('./assets/bg-img/about-bg-light.svg')] bg-center bg-no-repeat bg-cover">
                 <div className=" lg:py-[70px] py-[30px] max-w-7xl mx-auto px-2">
-                    <div className='grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12 gap-6'>
-                        <div className="md:col-span-4 flex flex-col justify-center">
+                    <div className='grid grid-cols-6 md:grid-cols-12 lg:grid-cols-12 gap-6'>
+                        <div className="md:col-span-4 col-span-6 flex flex-col justify-center">
                             <div className="experience-part  relative ">
                                 <div className='lg:w-[80%] bg-white shadow-lg rounded-[10px] h-full dark:bg-[#2d3a4f]'>
                                     <div className='lg:py-[70px] lg:pb-[130px] py-[30px]'>
@@ -24,7 +24,7 @@ const About_myself = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="md:col-span-8">
+                        <div className="md:col-span-8 col-span-6">
                             <div className="myself-text">
                                 <h4 className='text-[#222831] lg:text-[18px] text-[16px] font-semibold dark:text-white'>About Myself</h4>
                                 <h2 className='custom-header-stroke text-transparent lg:text-[28px] text-[22px] font-bold uppercase tracking-wider'>My Eyes to do</h2>
