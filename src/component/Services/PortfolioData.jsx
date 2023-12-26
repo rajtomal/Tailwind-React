@@ -6,6 +6,9 @@ import portfolioOld from '../../assets/UI-design/portfolio-old.svg'
 import Restaurant from '../../assets/UI-design/Restaurant.svg'
 import NFTWebsite from '../../assets/UI-design/NFT-website.svg'
 import RestaurantTwo from '../../assets/UI-design/Restaurant-two.svg'
+import abcCRM from '../../assets/UI-design/ABC-CRM.svg'
+import DenimJeans from '../../assets/UI-design/Online-Denim-Jeans.svg'
+import OnlineHealth from '../../assets/UI-design/Online-Health.svg'
 
 
 
@@ -14,21 +17,21 @@ import RestaurantTwo from '../../assets/UI-design/Restaurant-two.svg'
 
 const projectData = [
     {
-        title: 'Restaurant Two',
-        img: RestaurantTwo,
-        link: 'https://rajtomal.github.io/Resturent/',
-        tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'], //max-6
-    },
-    {
         title: 'NFT Website',
         img: NFTWebsite,
         link: 'https://rajtomal.github.io/NFT-project/',
         tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'], //max-6
     },
     {
+        title: 'SolidWorks',
+        img: Saferide2,
+        link: null,
+        tags: ['UI-UX', 'Prototype', 'Development'],
+    },
+    {
         title: 'Restaurant',
-        img: Restaurant,
-        link: 'https://rajtomal.github.io/mamathanh/',
+        img: RestaurantTwo,
+        link: 'https://rajtomal.github.io/Resturent/',
         tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'], //max-6
     },
     {
@@ -38,55 +41,43 @@ const projectData = [
         tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'], //max-6
     },
     {
+        title: 'Online Health',
+        img: OnlineHealth,
+        link: null,
+        tags: ['UI-UX', 'Prototype', 'Figma'], //max-6 UI-UX, Prototype, Figma
+    },
+    {
         title: 'Online Shop',
         img: onlineShop,
         link: 'https://onlineshop-e.vercel.app/',
         tags: ['HTML', 'CSS', 'Bootstrap', 'Angular'], //max-6
     },
     {
-        title: 'aDiant Traveler-1',
+        title: 'Denim Jeans',
+        img: DenimJeans,
+        link: null,
+        tags: ['UI-UX', 'Prototype', 'Figma'], //max-6 UI-UX, Prototype, Figma
+    },
+    {
+        title: 'Adiant Traveler',
         img: Saferide,
         link: null,
         tags: ['HTML', 'CSS', 'Tailwind', 'Bootstrap'], //max-6
     },
     {
-        title: 'SolidWorks-2',
-        img: Saferide2,
+        title: 'ABC CRM',
+        img: abcCRM,
         link: null,
-        tags: ['UI-UX', 'Prototype', 'Development'],
+        tags: ['UI-UX', 'CSS', 'Prototype', 'Figma'], //max-6 UI-UX, Prototype, Figma
     },
     {
-        title: 'PartnerFusion-3',
-        img: Saferide3,
-        link: null,
-        tags: ['UI-UX', 'Prototype', 'Development'],
+        title: 'Restaurant',
+        img: Restaurant,
+        link: 'https://rajtomal.github.io/mamathanh/',
+        tags: ['HTML', 'Bootstrap', 'JavaScript'], //max-6
     },
     {
-        title: 'SolidWorks-4',
-        img: Saferide2,
-        link: null,
-        tags: ['UI-UX', 'Prototype', 'Development'],
-    },
-    {
-        title: 'PartnerFusion-5',
-        img: Saferide3,
-        link: null,
-        tags: ['UI-UX', 'Prototype', 'Development'],
-    },
-    {
-        title: 'PartnerFusion-6',
-        img: Saferide3,
-        link: null,
-        tags: ['UI-UX', 'Prototype', 'Development'],
-    },
-    {
-        title: 'SolidWorks-7',
-        img: Saferide2,
-        link: null,
-        tags: ['UI-UX', 'Prototype', 'Development'],
-    },
-    {
-        title: 'PartnerFusion-8',
+        title: 'PartnerFusion',
         img: Saferide3,
         link: null,
         tags: ['UI-UX', 'Prototype', 'Development'],

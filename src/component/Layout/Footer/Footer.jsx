@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink , Link } from 'react-router-dom';
 import Logo from '../../../assets/logo.svg'
 const Footer = () => {
     return (
@@ -14,11 +15,11 @@ const Footer = () => {
                     </div>
                     <div className='text-center my-3'>
                         <ul className='inline-block '>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Home</a></li>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">About</a></li>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Service</a></li>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Portfolio</a></li>
-                            <li className='inline-block px-3 py-4'><a className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Contact</a></li>
+                            <li className='inline-block px-3 py-4'><Link to="/" className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Home</Link></li>
+                            <li className='inline-block px-3 py-4'><Link to="/about" className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">About</Link></li>
+                            <li className='inline-block px-3 py-4'><Link to="/services" className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Service</Link></li>
+                            <li className='inline-block px-3 py-4'><Link to="/portfolio" className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Portfolio</Link></li>
+                            <li className='inline-block px-3 py-4'><Link to="/contact" className='text-[14px] font-semibold text-[#222831] uppercase dark:text-slate-400' href="#">Contact</Link></li>
                         </ul>
                     </div>
                     <div className='flex justify-center  gap-4 pb-[20px]'>

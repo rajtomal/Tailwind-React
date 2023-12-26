@@ -12,10 +12,10 @@ function NavBar(props) {
             <section className='border-b border-gray-600/20 sticky top-0 z-[999] backdrop-blur'>
                 <Navbar className='max-w-7xl mx-auto bg-dark-bg/80 sticky w-full top-0 left-0 z-[999999999] dark:bg-transparent'>
                     <Navbar.Toggle />
-                    <Navbar.Brand href="#">
+                    <NavLink to="/" className='flex'>
                         <img src={Logo} className="mr-3 h-[3.25rem]" alt="Logo" />
                         <span className="self-center whitespace-nowrap text-xl font-bold dark:text-white text-[22px]">Tomal.M</span>
-                    </Navbar.Brand>
+                    </NavLink>
                     <div className="flex md:order-2">
                         {/* <Flowbite>
                         <DarkThemeToggle />
