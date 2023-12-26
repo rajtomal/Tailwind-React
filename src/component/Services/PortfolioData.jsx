@@ -9,6 +9,8 @@ import RestaurantTwo from '../../assets/UI-design/Restaurant-two.svg'
 import abcCRM from '../../assets/UI-design/ABC-CRM.svg'
 import DenimJeans from '../../assets/UI-design/Online-Denim-Jeans.svg'
 import OnlineHealth from '../../assets/UI-design/Online-Health.svg'
+import portfolioLight from '../../assets/UI-design/portfolio-light.svg'
+import portfolioDark from '../../assets/UI-design/portfolio-dark.svg'
 
 
 
@@ -35,6 +37,12 @@ const projectData = [
         tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'], //max-6
     },
     {
+        title: 'Portfolio Dark',
+        img: portfolioDark,
+        link: 'https://tomalraj.vercel.app/',
+        tags: ['HTML', 'CSS', 'Tailwind', 'React'], //max-6 UI-UX, Prototype, Figma
+    },
+    {
         title: 'Portfolio Old',
         img: portfolioOld,
         link: 'https://tomal.vercel.app/',
@@ -45,6 +53,12 @@ const projectData = [
         img: OnlineHealth,
         link: null,
         tags: ['UI-UX', 'Prototype', 'Figma'], //max-6 UI-UX, Prototype, Figma
+    },
+    {
+        title: 'Portfolio Light',
+        img: portfolioLight,
+        link: 'https://tomalraj.vercel.app/',
+        tags: ['HTML', 'CSS', 'Tailwind', 'React'], //max-6 UI-UX, Prototype, Figma
     },
     {
         title: 'Online Shop',
@@ -62,25 +76,25 @@ const projectData = [
         title: 'Adiant Traveler',
         img: Saferide,
         link: null,
-        tags: ['HTML', 'CSS', 'Tailwind', 'Bootstrap'], //max-6
+        tags: ['UI-UX', 'Prototype', 'Figma'], //max-6
     },
     {
         title: 'ABC CRM',
         img: abcCRM,
         link: null,
-        tags: ['UI-UX', 'CSS', 'Prototype', 'Figma'], //max-6 UI-UX, Prototype, Figma
+        tags: ['UI-UX', 'Prototype', 'Figma'], //max-6 UI-UX, Prototype, Figma
     },
     {
         title: 'Restaurant',
         img: Restaurant,
         link: 'https://rajtomal.github.io/mamathanh/',
-        tags: ['HTML', 'Bootstrap', 'JavaScript'], //max-6
+        tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'], //max-6
     },
     {
         title: 'PartnerFusion',
         img: Saferide3,
         link: null,
-        tags: ['UI-UX', 'Prototype', 'Development'],
+        tags: ['UI-UX', 'Prototype', 'Figma'],
     }
 ];
 
