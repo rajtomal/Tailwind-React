@@ -9,7 +9,7 @@ import Logo from '../../../assets/logo.svg'
 function NavBar(props) {
     return (
         <>
-            <section className='border-b border-gray-600/20 sticky top-0 z-50 backdrop-blur'>
+            <section className='border-b border-gray-600/20 sticky top-0 z-[999] backdrop-blur'>
                 <Navbar className='max-w-7xl mx-auto bg-dark-bg/80 sticky w-full top-0 left-0 z-[999999999] dark:bg-transparent'>
                     <Navbar.Toggle />
                     <Navbar.Brand href="#">
