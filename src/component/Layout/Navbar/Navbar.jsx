@@ -14,7 +14,7 @@ function NavBar(props) {
                     <Navbar.Toggle />
                     <NavLink to="/" className='flex'>
                         <img src={Logo} className="mr-3 h-[3.25rem]" alt="Logo" />
-                        <span className="self-center whitespace-nowrap text-xl font-bold dark:text-white text-[22px]">Tomal.M</span>
+                        <span className="self-center whitespace-nowrap text-xl font-bold text-[#222831]  dark:text-white text-[22px]">Tomal.M</span>
                     </NavLink>
                     <div className="flex md:order-2">
                         {/* <Flowbite>
