@@ -7,7 +7,7 @@ const Contact_details = () => {
             <section className="dark:bg-[url('./assets/bg-img/technology-bg-dark.svg')] bg-[url('./assets/bg-img/technology-bg-light.svg')] bg-center bg-no-repeat bg-cover">
                 <div className='lg:py-[100px] py-[50px] max-w-7xl mx-auto px-2'>
                     <h2 className='text-[#222831] lg:text-[18px] text-[16px] font-semibold dark:text-white'>One steps to connect</h2>
-                    <h1 className='custom-header-stroke text-transparent lg:text-[28px] text-[22px] font-bold uppercase tracking-wider'>Contact Us</h1>
+                    <h1 className='custom-header-stroke text-transparent lg:text-[28px] text-[22px] font-bold uppercase tracking-wider'>Contact Me</h1>
                     <div className='grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-6 mt-5'>
                         <div className='md:col-span-3 rounded-[10px] mx-3 md:m-0 py-[30px] px-[30px] bg-white border border-[#E2E2E2] dark:bg-[#273346] dark:border-[#566279]'>
                             <div className='w-[50px] h-[50px] border border-[#E2E2E2 rounded-[10px] flex items-center justify-center mb-[40px] dark:border-[#566279]'>
